@@ -88,9 +88,7 @@ nav a{
     text-align:center;
 }
 
-#introduction img{
-    width: 100%
-}
+
 
 .intro-top{
     display:flex;
@@ -99,12 +97,20 @@ nav a{
     margin:0px 0px 64px;
 }
 
+.intro-top img{
+    width: 100%;
+}
+
 .intro-bottom{
     display:flex;
     flex-direction:row-reverse;
     align-items:center;
     justify-content:center;
     margin:0px 0px 64px;
+}
+
+.intro-bottom img{
+    width: 100%;
 }
 
 .intro-text {
@@ -143,6 +149,19 @@ nav a{
     margin:30px 165px 0px;
     text-align: center;
     display: inline-block;
+}
+
+.wrao{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
 }
 
 #courses{
