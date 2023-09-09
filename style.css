@@ -26,6 +26,7 @@ nav li{
     text-align: left;
     padding: 0 15px;
     display: list-item;
+    line-height: 50px;
 }
 
 nav a{
@@ -34,7 +35,7 @@ nav a{
 }
 
 
-.firstview{
+#bg-switcher{
     background-image: url(images/background1.jpg);
     background-size: cover;
     background-position: center center;
@@ -73,3 +74,208 @@ nav a{
     }
 }
 
+#introduction{
+    padding: 30px;
+}
+
+#introduction h2{
+    color: #445FD3;
+    font-family:Futura;
+    font-size:56px;
+    font-weight:700;
+    line-height:84px;
+    margin:40px 0px;
+    text-align:center;
+}
+
+#introduction img{
+    width: 100%
+}
+
+.intro-top{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0px 0px 64px;
+}
+
+.intro-bottom{
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:center;
+    justify-content:center;
+    margin:0px 0px 64px;
+}
+
+.intro-text {
+    color:#333333;
+    font-family:Hiragino Kaku Gothic Pro;
+    line-height:32px;
+    margin:0px 50px;
+    text-wrap: wrap;
+}
+
+.intro-top a{
+    width: 170px;
+    height: 40px;
+    background-color: #445FD3;
+    border-radius: 16px;
+    color: #fff;
+    font-family: Times New Roman;
+    font-size:20px;
+    font-weight:700;
+    line-height:40px;
+    margin:30px 165px 0px;
+    text-align: center;
+    display: inline-block;
+}
+
+.intro-bottom a{
+    width: 170px;
+    height: 40px;
+    background-color: #F4C142;
+    border-radius: 12px;
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-size:20px;
+    font-weight:700;
+    line-height:40px;
+    margin:30px 165px 0px;
+    text-align: center;
+    display: inline-block;
+}
+
+#courses{
+    padding: 30px;
+}
+
+#courses h2{
+    color: #445FD3;
+    font-family:Futura;
+    font-size:56px;
+    font-weight:700;
+    line-height:84px;
+    margin:40px 0px;
+    text-align:center;
+}
+
+#courses .contents{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 50px 50px;
+}
+
+#courses .content{
+    width: 240px;
+    height: 340px;
+    background-color:#ffffff;
+    border-radius:8px;
+    box-shadow:#6a8998 0px 1px 3px 0px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    padding:25px;
+    align-items: center;
+}
+
+.content p{
+    width: 190px;
+    font-size: 14px;
+    font-family: Hiragino Kaku Gothic Pro;
+    padding: 20px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.content a{
+    width: 180px;
+    border-radius: 12px;
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-size: 13px;
+    font-weight:bold;
+    line-height:40px;
+    margin:15px 5px 0px;
+    text-align: center;
+    display: inline-block; 
+}
+
+
+.content img{
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    margin:0px 20px
+}
+
+.content .unity{
+    width: 110px;
+    height: 110px;
+}
+
+.contents .content:nth-child(1) a {
+    background-color: #DE6D3C;
+ }
+.contents .content:nth-child(2) a {
+    background-color: #57A7DA;
+}
+.contents .content:nth-child(3) a {
+    background-color: #333333;
+}
+.contents .content:nth-child(4) a {
+    background-color: #EA5F59;
+}
+.contents .content:nth-child(5) a {
+    background-color: #F7D749;
+}
+.contents .content:nth-child(6) a {
+    background-color: #EB7C47;
+}
+.contents .content:nth-child(7) a {
+    background-color: #8BCCDB;
+}
+
+#images{
+    padding: 30px;
+}
+
+#images h2{
+    color: #445FD3;
+    font-family:Futura;
+    font-size:56px;
+    font-weight:700;
+    line-height:84px;
+    margin:40px 0px;
+    text-align:center;
+}
+
+#access{
+    padding: 30px;
+}
+  
+#access h2{
+    color: #445FD3;
+    font-family:Futura;
+    font-size:56px;
+    font-weight:700;
+    line-height:84px;
+    margin:40px 0px;
+    text-align:center;
+}
+
+iframe{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    color:#3d5cdb;
+    font-family:Futura;
+    line-height:60px;
+    text-align:center;
+}
