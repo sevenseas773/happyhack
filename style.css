@@ -99,7 +99,7 @@ nav a{
 }
 
 .intro-top img{
-    width: 100%;
+    width: 500px;
 }
 
 .intro-bottom{
@@ -111,7 +111,7 @@ nav a{
 }
 
 .intro-bottom img{
-    width: 100%;
+    width: 500px;
 }
 
 .intro-text {
@@ -152,10 +152,20 @@ nav a{
     display: inline-block;
 }
 
-.wrao{
-    width: 100%;
-    height: 700px;
-    position: relative;
+
+
+@media (max-width: 1000px){
+    .intro-top{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .intro-bottom{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    
 }
 
 canvas{
