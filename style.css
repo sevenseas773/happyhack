@@ -11,6 +11,7 @@ nav{
     top: 0;
     right: 0;
     z-index: 1;
+    font-family: 'Times New Roman';
 }
 
 nav ul{
@@ -68,7 +69,7 @@ nav a{
     font-family: 'Futura';
 }
 
-@media (max-width: 740px){
+@media (max-width: 745px){
     nav{
         display: none;
     }
