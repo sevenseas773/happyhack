@@ -8,7 +8,6 @@ $(function() {
     $('.slider').slick({
         dots: true,
         arrows: true,
-        centerMode: true,
     });
 
     $('nav a[href^="#"]').click(function() {
