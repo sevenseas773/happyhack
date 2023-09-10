@@ -187,6 +187,7 @@ canvas{
 
 #courses{
     padding: 30px;
+    background-color: #D9E5F7;
 }
 
 #courses h2{
@@ -283,6 +284,12 @@ canvas{
     padding: 30px;
 }
 
+.slick-initialized .slick-slider{
+    padding: 100px;
+}
+
+
+
 #images h2{
     color: #445FD3;
     font-family:'Futura';
@@ -292,6 +299,14 @@ canvas{
     margin:40px 0px;
     text-align:center;
 }
+
+.slider img{
+    width: 259px;
+    height: 172px;
+    margin: 0;
+}
+
+
 
 #access{
     padding: 30px;
