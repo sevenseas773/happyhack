@@ -21,7 +21,7 @@ nav ul{
 nav li{
     list-style: none;
     color: #fff;
-    font-family: Futura;
+    font-family: 'Futura';
     font-size: 24px;
     line-height: 48;
     text-align: left;
@@ -73,6 +73,16 @@ nav a{
     nav{
         display: none;
     }
+
+    .logo img{
+        width: 520px;
+        height: 138px;
+    }
+
+    .logo p{
+        font-size: 24px;
+    }
+
 }
 
 #introduction{
@@ -81,7 +91,7 @@ nav a{
 
 #introduction h2{
     color: #445FD3;
-    font-family:Futura;
+    font-family:'Futura';
     font-size:56px;
     font-weight:700;
     line-height:84px;
@@ -116,7 +126,7 @@ nav a{
 
 .intro-text {
     color:#333333;
-    font-family:Hiragino Kaku Gothic Pro;
+    font-family:'Hiragino Kaku Gothic Pro';
     line-height:32px;
     margin:0px 50px;
     text-wrap: wrap;
@@ -128,7 +138,7 @@ nav a{
     background-color: #445FD3;
     border-radius: 16px;
     color: #fff;
-    font-family: Times New Roman;
+    font-family: 'Times New Roman';
     font-size:20px;
     font-weight:700;
     line-height:40px;
@@ -181,7 +191,7 @@ canvas{
 
 #courses h2{
     color: #445FD3;
-    font-family:Futura;
+    font-family:'Futura';
     font-size:56px;
     font-weight:700;
     line-height:84px;
@@ -214,7 +224,7 @@ canvas{
 .content p{
     width: 190px;
     font-size: 14px;
-    font-family: Hiragino Kaku Gothic Pro;
+    font-family: 'Hiragino Kaku Gothic Pro';
     padding: 20px 0px 0px;
     text-align: center;
     font-weight: bold;
@@ -275,7 +285,7 @@ canvas{
 
 #images h2{
     color: #445FD3;
-    font-family:Futura;
+    font-family:'Futura';
     font-size:56px;
     font-weight:700;
     line-height:84px;
@@ -289,7 +299,7 @@ canvas{
   
 #access h2{
     color: #445FD3;
-    font-family:Futura;
+    font-family:'Futura';
     font-size:56px;
     font-weight:700;
     line-height:84px;
@@ -305,7 +315,7 @@ iframe{
 
 footer{
     color:#3d5cdb;
-    font-family:Futura;
+    font-family:'Futura';
     line-height:60px;
     text-align:center;
 }
