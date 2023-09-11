@@ -14,6 +14,7 @@ nav{
     font-family: 'Times New Roman';
 }
 
+
 nav ul{
     display: flex;
 }
@@ -30,10 +31,19 @@ nav li{
     line-height: 50px;
 }
 
+nav a:hover{
+    color: #3d5cdb;
+}
+
 nav a{
     text-decoration: none;
     color: #fff;
+    transition: 0.3s;
 }
+
+
+
+
 
 
 #bg-switcher{
