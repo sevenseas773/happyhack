@@ -12,6 +12,7 @@ nav{
     right: 0;
     z-index: 1;
     font-family: 'Times New Roman';
+    margin: 20px;
 }
 
 
@@ -40,8 +41,6 @@ nav a{
     color: #fff;
     transition: 0.3s;
 }
-
-
 
 
 
@@ -85,7 +84,7 @@ nav a{
     }
 
     .logo img{
-        width: 520px;
+        width: 450px;
         height: 138px;
     }
 
@@ -136,8 +135,16 @@ nav a{
     color:#333333;
     font-family:'Hiragino Kaku Gothic Pro';
     line-height:32px;
-    margin:0px 50px;
+    margin:0px;
     text-wrap: wrap;
+}
+
+.intro-top .intro-text{
+    margin-left: 50px;
+}
+
+.intro-bottom .intro-text{
+    margin-left: 50px;
 }
 
 .intro-top a{
@@ -153,6 +160,7 @@ nav a{
     margin:30px 165px 0px;
     text-align: center;
     display: inline-block;
+    text-decoration: none;
 }
 
 .intro-bottom a{
@@ -203,7 +211,7 @@ canvas{
 
 
 #courses{
-    padding: 30px;
+    padding: 50px;
     background-color: #D9E5F7;
 }
 
@@ -227,7 +235,7 @@ canvas{
 }
 
 #courses .content{
-    width: 240px;
+    max-width: 240px;
     height: 340px;
     background-color:#ffffff;
     border-radius:8px;
@@ -260,6 +268,7 @@ canvas{
     margin:15px 5px 0px;
     text-align: center;
     display: inline-block; 
+    text-decoration: none;
 }
 
 
@@ -360,7 +369,7 @@ iframe{
         font-size: 46px;
     }
 
-    inframe{
+    iframe{
         width: 100%;
     }
 }
