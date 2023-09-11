@@ -312,9 +312,7 @@ canvas{
 }
 
 .slider img{
-    width: 259px;
-    height: 172px;
-    margin: 0;
+    width: 100%;
 }
 
 @media (max-width: 745px){
