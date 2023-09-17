@@ -21,7 +21,15 @@ $(function() {
                       slidesToShow: 2,
                       slidesToScroll: 2,
                  }
-            }
+            },{
+                breakpoint: 475,
+                     settings: {
+                          slidesToShow: 1,
+                          slidesToScroll: 1,
+                     }
+                }
+        
+            
        ]
 
     });
