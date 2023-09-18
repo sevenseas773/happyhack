@@ -28,10 +28,7 @@ $(function() {
                           slidesToScroll: 1,
                      }
                 }
-        
-            
-       ]
-
+          ]
     });
 
 

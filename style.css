@@ -2,7 +2,6 @@
     block-size: border-box;
     padding: 0;
     margin: 0;
-
 }
 
 nav{
@@ -44,8 +43,6 @@ nav a{
 }
 
 
-
-
 #bg-switcher{
     background-image: url(images/background1.jpg);
     background-size: cover;
@@ -80,6 +77,10 @@ nav a{
 }
 
 @media (max-width: 910px){
+    #bg-switcher{
+        width: 100%;
+    }
+
     nav{
         display: none;
     }
@@ -95,12 +96,14 @@ nav a{
 }
 
 @media (max-width: 550px){
+    #bg-switcher{
+        width: 100%;
+    }
+
     .logo img{
         width: 350px;
         height: 92px;
     }
-
-
 }
 
 #introduction{
@@ -193,6 +196,11 @@ nav a{
 
 
 @media (max-width: 1000px){
+    #introduction{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 
     #introduction h2{
         font-size: 46px;
@@ -221,10 +229,12 @@ nav a{
 
     .intro-top .intro-text{
         margin: 0px;
+        max-width: 343px;
     }
     
     .intro-bottom .intro-text{
         margin: 0px;
+        max-width: 343px;
     }
 
     .intro-bottom{
@@ -255,6 +265,7 @@ canvas{
     top: 0;
     right: 0;
     z-index: -1;
+    padding: 0;
 }
 
 
@@ -276,12 +287,13 @@ canvas{
 #courses .contents{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     gap: 20px;
-    justify-content: center;
-    margin: 0 0px 50px;
+    margin: 0 auto 50px;
     max-width: 1200px;
+    justify-content: center;
+    align-items: center;
 }
+
 
 #courses .content{
     max-width: 240px;
@@ -391,6 +403,10 @@ canvas{
     #images h2{
         font-size: 46px;
     }
+    
+    iframe{
+        width: 100%;
+    }
 }
 
 #access{
@@ -413,7 +429,7 @@ iframe{
     align-items: center;
 }
 
-@media (max-width: 375px){
+@media (max-width: 485px){
     #access{
         padding: 0;
         margin: 0;
@@ -423,9 +439,6 @@ iframe{
         font-size: 46px;
     }
 
-    iframe{
-        width: 100%;
-    }
 }
 
 footer{
