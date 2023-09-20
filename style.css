@@ -2,6 +2,7 @@
     block-size: border-box;
     padding: 0;
     margin: 0;
+    outline: 1px solid red;
 }
 
 nav{
@@ -200,6 +201,7 @@ nav a{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        padding: 0;
     }
 
     #introduction h2{
@@ -217,24 +219,32 @@ nav a{
 
     .intro-top img{
         width: 343px;
+        margin: 0 auto;
     }
     
     .intro-top p{
         font-size: 13px;
-    }
-    
-    .intro-top a{
-        margin: 30px 0px 0px 70px;
+        text-align: left;
     }
 
     .intro-top .intro-text{
         margin: 0px;
         max-width: 343px;
+        text-align: center;
     }
     
+    .intro-top a{
+        margin: 0;
+    }
+
     .intro-bottom .intro-text{
         margin: 0px;
         max-width: 343px;
+        text-align: center;
+    }
+
+    .intro-bottom a{
+        margin: 0px
     }
 
     .intro-bottom{
@@ -247,11 +257,10 @@ nav a{
 
     .intro-bottom p{
         font-size: 13px;
+        text-align: left;
     }
 
-    .intro-bottom a{
-        margin: 30px 0px 0px 70px;
-    }
+   
 }
 
 .wrap{
